@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="SolidWorks three-view modeling">
+  <rect width="64" height="64" rx="12" fill="#1f4b8f"/>
+  <g stroke="#ffffff" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M20 18 L44 18 L44 42 L20 42 Z"/>
+    <path d="M20 18 L14 12 L38 12 L44 18"/>
+    <path d="M38 12 L38 36 L44 42"/>
+    <path d="M26 30 L38 30" stroke-dasharray="3 3" stroke-width="1.6"/>
+    <circle cx="27" cy="24" r="3" stroke-width="1.6"/>
+  </g>
+  <g stroke="#8fc3ff" stroke-width="1.6" fill="none">
+    <path d="M12 46 H24 M12 46 V56 M12 56 H24 M24 46 V56"/>
+    <path d="M28 50 m-4 0 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0"/>
+  </g>
+</svg>

@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "SolidWorks three-view modeling",
+    "description": "Builds SolidWorks parts from a JSON feature spec, then exports front, top, right and isometric views plus an optional first-angle three-view drawing for comparison against the source drawing.",
+    "detail": "docs/DETAIL.md"
+  }
+}

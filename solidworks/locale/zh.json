@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "SolidWorks 三视图建模",
+    "description": "按 JSON 特征规格驱动本机 SolidWorks 建模，随后导出前/上/右/等轴测视图，可再加一张第一角三视图工程图，用来和原始图纸逐项比对。",
+    "detail": "docs/DETAIL.md"
+  }
+}

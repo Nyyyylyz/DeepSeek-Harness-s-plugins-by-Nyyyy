@@ -1,0 +1,4 @@
+- insert:
+    - id: solidworks
+      name: dsh-solidworks
+      config: {}

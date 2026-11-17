@@ -1,0 +1,37 @@
+{
+  "name": "dsh-solidworks",
+  "version": "0.1.0",
+  "description": "DeepSeek Harness plugin: drive SolidWorks from chat — build parts from a JSON feature spec, export orthographic views and a first-angle three-view drawing.",
+  "type": "module",
+  "main": "index.js",
+  "license": "MIT",
+  "keywords": [
+    "deepseek",
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "solidworks",
+    "cad",
+    "three-view",
+    "orthographic"
+  ],
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "docs",
+    "icon.svg",
+    "py",
+    "examples"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

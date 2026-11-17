@@ -1,0 +1,12 @@
+node_modules/
+__pycache__/
+*.pyc
+out/
+*.SLDPRT
+*.SLDDRW
+*.SLDASM
+*.sldprt
+*.slddrw
+*.log
+.DS_Store
+Thumbs.db

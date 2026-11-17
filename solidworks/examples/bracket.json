@@ -1,0 +1,16 @@
+{
+  "name": "bracket_demo",
+  "_comment": "演示件：100x60x12 底板 + 上表面矩形槽 + Ø8 通孔 + 前表面盲槽",
+  "steps": [
+    { "op": "boss", "plane": "front", "rect": [-50, -30, 50, 30], "depth": 12 },
+
+    { "op": "cut", "face": "top", "rect": [-40, 2, -20, 10], "depth": 5,
+      "_note": "上表面槽：X -40..-20, Z 2..10，深 5" },
+
+    { "op": "cut", "face": "top", "circle": [30, 6, 4], "through": true,
+      "_note": "Ø8 通孔 @ X=30 Z=6" },
+
+    { "op": "cut", "face": "front", "rect": [-10, -20, 10, -10], "depth": 4,
+      "_note": "前表面盲槽：X -10..10, Y -20..-10，深 4" }
+  ]
+}
